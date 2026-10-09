@@ -1,0 +1,37 @@
+title: gowebfilter
+description: A single-binary, policy-based web-filtering proxy for households and small offices.
+url: https://yjlion.github.io
+baseurl: /gowebfilter-website
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+enable_copy_code_button: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "View on GitHub":
+    - "https://github.com/Yjlion/gowebfilter"
+aux_links_new_tab: true
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/Yjlion/gowebfilter-website"
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"
+
+footer_content: >-
+  gowebfilter is an open-source personal/homelab project.
+  Site source on <a href="https://github.com/Yjlion/gowebfilter-website">GitHub</a>.
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
