@@ -1,0 +1,30 @@
+// Accent tweaks on top of the dark color scheme.
+$accent: #3fb6a8;
+
+.hero {
+  padding: 1.5rem 0 0.5rem;
+  h1 { font-size: 2.6rem; margin-bottom: 0.25rem; }
+  .tagline { font-size: 1.25rem; opacity: 0.85; margin-bottom: 1.25rem; }
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+
+  .feature {
+    padding: 1rem 1.1rem;
+    border: 1px solid rgba(127, 127, 127, 0.3);
+    border-radius: 8px;
+    h3 { margin-top: 0; font-size: 1.05rem; color: $accent; }
+    p { margin: 0; font-size: 0.9rem; }
+  }
+}
+
+img.shot {
+  max-width: 100%;
+  border: 1px solid rgba(127, 127, 127, 0.3);
+  border-radius: 8px;
+  margin: 0.5rem 0 1.5rem;
+}
