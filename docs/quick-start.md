@@ -7,7 +7,7 @@ description: Build, run and connect your first client.
 # Quick start
 {: .no_toc }
 
-Building needs only the Go toolchain — no CGO and no C compiler.
+Building needs only the Go toolchain, with no CGO and no C compiler. gowebfilter is a CLI app with a web interface; there is no native desktop UI.
 {: .fs-6 .fw-300 }
 
 ## Build and run
@@ -52,11 +52,6 @@ Set the client's HTTP(S) proxy to `<host>:8080`, or use the generated PAC file a
 ```
 
 This downloads the IPFire squidGuard category lists, which then show up in the policy editor.
-
-## Native desktop window
-
-`webfilter gui` opens a native, GPU-rendered window (pure Go) covering the dashboard, policies, logs and
-settings. If a server is already running it attaches to it; otherwise it hosts one itself.
 
 ## Other ways to run it
 
